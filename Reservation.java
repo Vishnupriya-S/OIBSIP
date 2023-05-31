@@ -16,7 +16,8 @@ public class Reservation  {
         users.put("jack", "password3");
        
         boolean loggedIn = false;
-       
+
+        boolean log = false;
         while (!loggedIn) {
             System.out.print("Enter your username: ");
             String username = scanner.nextLine();
